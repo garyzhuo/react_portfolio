@@ -5,13 +5,18 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className='xs:w-[250px] w-full'> {title}
+    // this will provide the tilt on the cards component
+    <Tilt className='xs:w-[250px] w-full'>
+      {/* this is how we want the card to move 
+      applying motion div to make them move the way we want them too */}
       <motion.div
         variants={fadeIn("right", "spring", 0.5 *
           index, 0.75)}
+        // this is applying the gradient colors to the card borders
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
@@ -20,11 +25,15 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450
           }}
+          // this is how we got the card to display the sizing
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly
         items-center flex-col"
         >
+          {/* pulling the icons from src / assets folder to load the cards with images */}
           <img src={icon} alt={title}
             className="w-16 h-16 object-contain" />
+          {/* this will be how we are displaying the titles of the cards, they are listed inside services */}
+          <h3 className="text-white text-[20px] font-bold text-center"> {title} </h3>
         </div>
 
       </motion.div>
@@ -64,4 +73,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")
