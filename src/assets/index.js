@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import lumio from "./company/lumio.png"
+import ADT from "./company/ADT.png"
+import KW from "./company/KW.png"
+import GA from "./company/GA.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,6 +37,10 @@ import glogo from "./glogo.svg";
 import mylogo from "./mylogo.png";
 
 export {
+  GA,
+  KW,
+  ADT,
+  lumio,
   mylogo,
   glogo,
   logo,
