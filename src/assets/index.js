@@ -29,8 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import glogo from "./glogo.svg";
+import mylogo from "./mylogo.png";
 
 export {
+  mylogo,
+  glogo,
   logo,
   backend,
   creator,
