@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import filmfrenzy from "./filmfrenzy.png"
+import BrickByBrick from "./BrickByBrick.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -37,6 +39,8 @@ import glogo from "./glogo.svg";
 import mylogo from "./mylogo.png";
 
 export {
+  BrickByBrick,
+  filmfrenzy,
   GA,
   KW,
   ADT,

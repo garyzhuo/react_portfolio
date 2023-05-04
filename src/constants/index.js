@@ -27,6 +27,8 @@ import {
   ADT,
   KW,
   GA,
+  filmfrenzy,
+  BrickByBrick,
 } from "../assets";
 
 export const navLinks = [
@@ -178,11 +180,10 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Very hard working, always striving to improve and learn",
+    name: "Jonah Angelo",
+    designation: "Backend Developer",
+    company: "Software Engineer",
   },
   {
     testimonial:
@@ -204,9 +205,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Film Frenzy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React based, MERN stack app, tailored for helping movie enthusiast quickly find a new movie to watch.",
     tags: [
       {
         name: "react",
@@ -220,17 +221,21 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: filmfrenzy,
+    source_code_link: "https://github.com/garyzhuo/FilmFrenzy",
   },
   {
-    name: "Job IT",
+    name: "Brick By Brick",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "For LEGO enthusiasts, this site can identify your current lego set and show you what legos you currently have and what legos you need to complete a new set of your choice.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -241,26 +246,34 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "postman",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: BrickByBrick,
+    source_code_link: "https://github.com/jimcreel/BrickByBrick",
   },
   {
-    name: "Trip Guide",
+    name: "Aesthetic Domain",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Artwork API React website made for art lovers, who can view other comment, share, like and explore arts from all around the world.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mernstack",
         color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "orange-text-gradient",
       },
     ],
     image: tripguide,
