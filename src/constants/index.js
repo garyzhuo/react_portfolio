@@ -29,6 +29,9 @@ import {
   GA,
   filmfrenzy,
   BrickByBrick,
+  Jonah,
+  Emily,
+  David,
 } from "../assets";
 
 export const navLinks = [
@@ -181,25 +184,26 @@ const testimonials = [
   {
     testimonial:
       "Very hard working, always striving to improve and learn",
-    name: "Jonah Angelo",
+    name: "Jonah A.",
     designation: "Backend Developer",
     company: "Software Engineer",
+    image: Jonah,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a developer who is as passionate about this like Gary.",
+    name: "Emily M.",
+    designation: "Full-Stack Developer",
+    company: "Software Enginner",
+    image: Emily,
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "David D.",
+    designation: "Microbiologist",
+    company: "University of LA",
+    image: David,
   },
 ];
 

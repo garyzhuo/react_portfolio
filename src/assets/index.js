@@ -8,6 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import filmfrenzy from "./filmfrenzy.png"
 import BrickByBrick from "./BrickByBrick.png"
+import Jonah from "./Jonahh.png"
+import Emily from "./Emilyy.png"
+import David from "./David.jpg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -39,6 +42,9 @@ import glogo from "./glogo.svg";
 import mylogo from "./mylogo.png";
 
 export {
+  David,
+  Emily,
+  Jonah,
   BrickByBrick,
   filmfrenzy,
   GA,
