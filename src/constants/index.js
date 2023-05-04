@@ -199,7 +199,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "It was a pleasure working with Gary on past projects, great communicator as well",
     name: "David D.",
     designation: "Microbiologist",
     company: "University of LA",
