@@ -32,6 +32,7 @@ import {
   Jonah,
   Emily,
   David,
+  AI,
 } from "../assets";
 
 export const navLinks = [
@@ -259,29 +260,29 @@ const projects = [
     source_code_link: "https://github.com/jimcreel/BrickByBrick",
   },
   {
-    name: "Aesthetic Domain",
+    name: "CondensAI",
     description:
-      "Artwork API React website made for art lovers, who can view other comment, share, like and explore arts from all around the world.",
+      "Experience effortless reading with CondensAI, an article summarizer that elegantly distills lengthy articles into crisp and coherent summaries.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "rapidapi",
         color: "green-text-gradient",
       },
       {
-        name: "mernstack",
+        name: "openai",
         color: "pink-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: AI,
+    source_code_link: "https://condensai.netlify.app/",
   },
 ];
 

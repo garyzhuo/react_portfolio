@@ -40,8 +40,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import glogo from "./glogo.svg";
 import mylogo from "./mylogo.png";
+import AI from "./Condens.png"
 
 export {
+  AI,
   David,
   Emily,
   Jonah,
