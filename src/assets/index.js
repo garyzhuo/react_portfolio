@@ -11,6 +11,7 @@ import BrickByBrick from "./BrickByBrick.png"
 import Jonah from "./Jonahh.png"
 import Emily from "./Emilyy.png"
 import David from "./David.jpg"
+import fitness from "./fitness.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -43,6 +44,7 @@ import mylogo from "./mylogo.png";
 import AI from "./Condens.png"
 
 export {
+  fitness,
   AI,
   David,
   Emily,

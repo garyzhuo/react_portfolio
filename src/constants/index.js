@@ -33,6 +33,7 @@ import {
   Emily,
   David,
   AI,
+  fitness,
 } from "../assets";
 
 export const navLinks = [
@@ -210,9 +211,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Film Frenzy",
+    name: "Z-Angelo Fitness",
     description:
-      "React based, MERN stack app, tailored for helping movie enthusiast quickly find a new movie to watch.",
+      "A MERN stack, React-based app designed for fitness aficionados to monitor their gym workouts and progress.",
     tags: [
       {
         name: "react",
@@ -231,8 +232,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: filmfrenzy,
-    source_code_link: "https://github.com/garyzhuo/FilmFrenzy",
+    image: fitness,
+    source_code_link: "https://z-angelofitness.netlify.app/",
   },
   {
     name: "Brick By Brick",
